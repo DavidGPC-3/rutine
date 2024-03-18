@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #111;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+a {
+    all: unset;
+    padding: 1rem 2rem;
+    background-color: lightgray;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1,
+p {
+    color: #eee;
+}
+
+.card img {
+    width: 100%;
+}
